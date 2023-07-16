@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/loginPhoneNoFragment">
+
+    <fragment
+        android:id="@+id/loginPhoneNoFragment"
+        android:name="com.example.login_otp.view.LoginPhoneNoFragment"
+        android:label="LoginPhoneNoFragment"
+        tools:layout="@layout/fragment_login_phone_no">
+        <action
+            android:id="@+id/action_loginPhoneNoFragment_to_OTPNoFragment2"
+            app:destination="@id/OTPNoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/OTPNoFragment"
+        android:name="com.example.login_otp.view.OTPNoFragment"
+        android:label="OTPNoFragment"
+        tools:layout="@layout/fragment_o_t_p_no">
+        <action
+            android:id="@+id/action_OTPNoFragment_to_loginPhoneNoFragment"
+            app:destination="@id/loginPhoneNoFragment" />
+    </fragment>
+
+</navigation>

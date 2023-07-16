@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Login_OTP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="by_logging_in_you_agree_to_our_terms_conditions_and_privacy_policy_of_our_application"><![CDATA[By logging in, you agree to our Terms & Conditions, and Privacy Policy of our application]]></string>
+    <string name="login">Login</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="enter_your_otp_number">Enter your OTP number</string>
+    <string name="verify">Verify</string>
+    <string name="enter_your_phone_number">Enter your Phone Number</string>
+    <string name="phone_no">Phone No</string>
+</resources>
